@@ -410,14 +410,6 @@ button:focus{
 	z-index: 3;
 }
 
-.lbox-details h3{
-	font-size: 36px;
-	color: #ffffff;
-	position: relative;
-	z-index: 3;
-	padding: 30px;
-}
-
 .lbox-details p{
 	color: #ffffff;
 	position: relative;
@@ -441,6 +433,27 @@ button:focus{
 .lbox-details a.btn:hover{
 	background: #dd666c;
 }
+
+@media only screen and (min-width: 600px) {
+	.lbox-details h3{
+		font-size: 36px;
+		color: #ffffff;
+		position: relative;
+		z-index: 3;
+		padding: 30px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.lbox-details h3{
+		font-size: 12px;
+		color: #ffffff;
+		position: relative;
+		z-index: 3;
+		padding: 30px;
+	}
+}
+
 
 /*------------------------------------------------------------------
     About
