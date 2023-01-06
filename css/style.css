@@ -830,6 +830,10 @@ select.form-control:not([size]):not([multiple]){
 	color: #ffffff;
 }
 
+.footer-contact a{
+	color: #ffffff;
+}
+
 .whatsapp.button
 {
 	background-color:none;
